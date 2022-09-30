@@ -1,0 +1,51 @@
+# Scons progress indicator
+.scons_node_count
+
+# ccls cache (https://github.com/MaskRay/ccls)
+.ccls-cache/
+
+# compile commands (https://clang.llvm.org/docs/JSONCompilationDatabase.html)
+tasks.json
+
+# Cppcheck
+*.cppcheck
+
+# https://clangd.llvm.org/ cache folder
+.clangd/
+.cache/
+
+# The Godot app
+*.app
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
